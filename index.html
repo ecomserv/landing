@@ -15,6 +15,9 @@
     <title>E-COMSERV</title>
   </head>
   <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
     <!-- Barra de navegación -->
     <div class="section__container footer__container">
       <ul class="footer__links">
@@ -30,81 +33,252 @@
       </ul>
     </div>
 
+    <!-- Inicio -->
     <header class="header">
       <div class="section__container header__container">
         <div class="header__image">
-          <img src="assets/headerimage.png" alt="header" />
+          <img src="assets/2.png" alt="header" />
         </div>
         <div class="header__content">
-          <h3 class="section__subheader">Music is like a dream</h3>
-          <h1>Without music, life would be a mistake</h1>
+          <h3 class="section__subheader">Venta y Reparación de Computadoras</h3>
+          <h1>¡Ofrecemos soluciones confiables!</h1>
+          <p>Somos especialistas en la reparación de computadoras y venta de componentes de alta calidad. Nuestro objetivo es brindarte el mejor soporte técnico y productos para cubrir todas tus necesidades tecnológicas.</p>
+
           <div class="header__btn">
-            <button class="btn">Go to shop</button>
+            <h3 class="section_miniheader">¿Deseas saber el precio de nuestros servicios?</h3>
+            <button class="btn">¡Cotízalo!</button>
           </div>
         </div>
       </div>
     </header>
 
-    <div class="section__container feature__container">
-      <h3 class="section__subheader">S</h3>
-      <h2 class="section__header">Sound around the world</h2>
+    <!-- Servicios -->
+    <div id="servicios" class="section__container feature__container">
+      <h3 class="section__subheader">¿Qué ofrece ECOMSERV?</h3>
+      <h2 class="section__header">Nuestros servicios</h2>
       <div class="feature__grid">
-        <div class="feature__card">
-          <div>.01</div>
-          <h4>World-Class Audio Quality</h4>
-          <p>
-            Immerse yourself in the global soundscape with our speakers,
-            engineered to deliver unparalleled audio fidelity.
-          </p>
-        </div>
-        <div class="feature__card">
-          <div>.02</div>
-          <h4>Customizable Sound Profiles</h4>
-          <p>
-            Tailor your listening experience to match the diverse music genres
-            and cultural preferences from different regions.
-          </p>
-        </div>
-        <div class="feature__card">
-          <div>.03</div>
-          <h4>Music Streaming Integration</h4>
-          <p>
-            Access an extensive library of music from across the globe with
-            integrated music streaming services.
-          </p>
-        </div>
-        <div class="feature__card">
-          <div>.04</div>
-          <h4>Multi-Room Audio Sync</h4>
-          <p>
-            Create a synchronized audio experience throughout your home or space
-            with multi-room audio synchronization.
-          </p>
-        </div>
+
+      <div class="feature__card">
+        <div>.01</div>
+        <h4>Mantenimiento de Computadoras</h4>
+        <p>
+        Mantén tu equipo funcionando como nuevo con nuestros servicios especializados.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.02</div>
+        <h4>Reparación de Laptops</h4>
+        <p>
+        Reparamos laptops de todas las marcas, devolviéndoles su máxima funcionalidad.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.03</div>
+        <h4>Protección Antivirus</h4>
+        <p>
+        Instalación de antivirus y detección de virus, spyware y adware para proteger tus dispositivos.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.04</div>
+        <h4>Instalación de Sistemas Operativos y Software</h4>
+        <p>
+        Formateamos y configuramos tu computadora con sistemas operativos y aplicaciones esenciales.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.05</div>
+        <h4>Recuperación y Respaldo de Datos</h4>
+        <p>
+        Recuperamos información valiosa y realizamos copias de seguridad para evitar pérdidas.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.06</div>
+        <h4>Reparación de Fallas en Software y Hardware</h4>
+        <p>
+        Diagnóstico y solución de problemas en componentes y programas de tus equipos.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.07</div>
+        <h4>Configuración de Impresoras</h4>
+        <p>
+        Instalamos y configuramos impresoras locales o de red para que funcionen sin problemas.
+        </p>
+      </div>
+      <div class="feature__card">
+        <div>.08</div>
+        <h4>Gestión de Correo Electrónico</h4>
+        <p>
+        Configuramos tus cuentas de correo electrónico para que trabajes sin interrupciones.
+        </p>
+      </div>
+
       </div>
     </div>
 
-    <section id="inicio" class="music">
-      <div class="section__container music__container">
-        <div class="music__image">
-          <span>02</span>
-          <img src="assets/music.png" alt="music" />
-        </div>
-        <div class="music__content">
-          <h2 class="section__header">If music be the food of love, play on</h2>
-          <p>
-            Explore our curated selection of speakers, instruments, and
-            accessories designed to enrich your musical journey, feeding your
-            soul with the nourishment of sound.
-          </p>
-          <div class="music__btn">
-            <button class="btn">Go to shop</button>
+    <!-- Productos -->
+    <section id="productos" class="wrapper">
+      <div class="category-filter">
+        <div class="container">
+          <h2 class="section__header">Productos</h2>
+          <div class="filter-btns">
+            <button type="button" class="filter-btn" id="all">Todos</button>
+            <button type="button" class="filter-btn" id="computadoras">Computadoras</button>
+            <button type="button" class="filter-btn" id="oficina">Oficina</button>
+            <button type="button" class="filter-btn" id="monitor">Monitor</button>
+          </div>
+
+          <div class="filter-items">
+            <div class="filter-item all computadoras">
+              <div class="item-img">
+                <img src="assets/placamadre.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Placas Madres</p>
+                <div>
+                  <span class="description">Las placas madres son esenciales para la comunicación entre componentes de tu PC. Ofrecemos una variedad de alta calidad para todas tus necesidades.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all computadoras">
+              <div class="item-img">
+                <img src="assets/procesador.webp" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Procesadores</p>
+                <div>
+                  <span class="description">Los procesadores son el cerebro de tu computadora. Encuentra los mejores modelos para potenciar tu rendimiento.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all computadoras">
+              <div class="item-img">
+                <img src="assets/ram.webp" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Memorias RAM</p>
+                <div>
+                  <span class="description">Las memorias RAM son esenciales para la velocidad de tu PC. Descubre nuestras opciones de alta capacidad y rendimiento.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all computadoras">
+              <div class="item-img">
+                <img src="assets/tarjeta.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Tarjetas de Video</p>
+                <div>
+                  <span class="description">Las tarjetas de video son esenciales para los gamers y diseñadores. Encuentra las mejores opciones para gráficos de alta calidad.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all computadoras">
+              <div class="item-img">
+                <img src="assets/case.webp" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Case para PC's</p>
+                <div>
+                  <span class="description">Los cases son esenciales para proteger y personalizar tu PC. Descubre nuestras opciones de alta calidad y diseño.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all oficina">
+              <div class="item-img">
+                <img src="assets/impresora.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Impresoras</p>
+                <div>
+                  <span class="description">Las impresoras son esenciales para la oficina y el hogar. Encuentra las mejores opciones para imprimir documentos y fotos de alta calidad.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all oficina">
+              <div class="item-img">
+                <img src="assets/teclado.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Teclados</p>
+                <div>
+                  <span class="description">Los teclados son esenciales para la productividad. Descubre nuestras opciones ergonómicas y de alta calidad para tu oficina.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all monitor">
+              <div class="item-img">
+                <img src="assets/monitor.avif" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Monitor Curvo</p>
+                <div>
+                  <span class="description">Los monitores curvos son ideales para una experiencia inmersiva. Descubre nuestras opciones de alta calidad y resolución para tu oficina o gaming.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all monitor">
+              <div class="item-img">
+                <img src="assets/monitor3.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Monitor Gamer</p>
+                <div>
+                  <span class="description">Los monitores gamers son esenciales para una experiencia de juego fluida y de alta calidad. Encuentra las mejores opciones para tus necesidades.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-item all monitor">
+              <div class="item-img">
+                <img src="assets/monitor2.jpg" alt="Item image">
+              </div>
+              <div class="item-info">
+                <p>Monitor Oficina</p>
+                <div>
+                  <span class="description">Los monitores de oficina son esenciales para la productividad. Descubre nuestras opciones de alta calidad y resolución para tu espacio de trabajo.</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </section>
+    
 
-    <div id= "servicios" class="section__container client__container">
+    <!-- Nosotros -->
+    <section id="nosotros" class="Nosotros">
+      <div class="section__container music__container">
+        <div class="music__image">
+          <span>02</span>
+          <img src="assets/figura1.png" alt="Nosotros" />
+        </div>
+        <div class="music__content">
+          <h2 class="section__header">¿Quiénes somos?</h2>
+          <p>
+            En ECOMSERV, somos una empresa apasionada por la tecnología, especializada en la venta de componentes y el mantenimiento y reparación de computadoras y laptops.
+            Nos motiva brindar soporte técnico confiable y adaptado a las necesidades de cada cliente. Creemos en la importancia de la tecnología como herramienta para mejorar la vida y productividad de las personas, por lo que trabajamos con dedicación para asegurar que tus equipos estén siempre en óptimas condiciones.
+            ¡En ECOMSERV, tu satisfacción es nuestra prioridad!
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contacto -->
+
+
+    <div id= "" class="section__container client__container">
       <h3 class="section__subheader">Testimonials</h3>
       <h2 class="section__header">What our listeners saying</h2>
       <!-- Slider main container -->
@@ -203,5 +377,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+
   </body>
 </html>

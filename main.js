@@ -1,9 +1,6 @@
 const navSearch = document.getElementById("nav-search");
-
-navSearch.addEventListener("click", (e) => {
-  navSearch.classList.toggle("open");
-});
-
+const filterButtons = document.querySelectorAll(".filter-btn");
+const filterItems = document.querySelectorAll(".filter-item");
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
@@ -59,4 +56,24 @@ ScrollReveal().reveal(".discount__content p", {
 ScrollReveal().reveal(".discount__btn", {
   ...scrollRevealOption,
   delay: 1000,
+});
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const filterCategory = button.id;
+    filterItems.forEach((item) => {
+      if (filterCategory === "all") {
+        item.style.display = "block";
+      } else {
+        if (item.classList.contains(filterCategory)) {
+          item.style.display = "block"; 
+        } else {
+          item.style.display = "none"; 
+        }
+      }
+    });
+
+    filterButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+  });
 });
