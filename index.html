@@ -19,7 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
     <!-- Barra de navegación -->
-    <div class="section__container footer__container">
+    <div id="inicio" class="section__container footer__container">
       <ul class="footer__links">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#servicios">Servicios</a></li>
@@ -28,13 +28,13 @@
           <a href="#" class="logo">E-COMSERV<span>.</span></a>
         </li>
         <li><a href="#productos">Productos</a></li>
-        <li><a class="nav-link" href="https://api.whatsapp.com/send?phone=+51945464470&text=Hola%20,%20quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brinda%20" target="_blank">Contáctanos</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
+        <li><a class="nav-link" href="https://api.whatsapp.com/send?phone=+51945464470&text=Hola%20,%20quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brinda%20" target="_blank">Contáctanos</a></li>
       </ul>
     </div>
 
     <!-- Inicio -->
-    <header class="header">
+    <header  class="header">
       <div class="section__container header__container">
         <div class="header__image">
           <img src="assets/2.png" alt="header" />
@@ -46,8 +46,7 @@
 
           <div class="header__btn">
             <h3 class="section_miniheader">¿Deseas saber el precio de nuestros servicios?</h3>
-            <button class="btn">¡Cotízalo!</button>
-          </div>
+            <a class="btn" href="https://api.whatsapp.com/send?phone=+51945464470&text=Hola%20,%20quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20brinda%20" target="_blank">¡Cotízalo!</a>          </div>
         </div>
       </div>
     </header>
@@ -118,261 +117,208 @@
       </div>
     </div>
 
-    <!-- Productos -->
-    <section id="productos" class="wrapper">
-      <div class="category-filter">
-        <div class="container">
-          <h2 class="section__header">Productos</h2>
-          <div class="filter-btns">
-            <button type="button" class="filter-btn" id="all">Todos</button>
-            <button type="button" class="filter-btn" id="computadoras">Computadoras</button>
-            <button type="button" class="filter-btn" id="oficina">Oficina</button>
-            <button type="button" class="filter-btn" id="monitor">Monitor</button>
-          </div>
-
-          <div class="filter-items">
-            <div class="filter-item all computadoras">
-              <div class="item-img">
-                <img src="assets/placamadre.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Placas Madres</p>
-                <div>
-                  <span class="description">Las placas madres son esenciales para la comunicación entre componentes de tu PC. Ofrecemos una variedad de alta calidad para todas tus necesidades.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all computadoras">
-              <div class="item-img">
-                <img src="assets/procesador.webp" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Procesadores</p>
-                <div>
-                  <span class="description">Los procesadores son el cerebro de tu computadora. Encuentra los mejores modelos para potenciar tu rendimiento.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all computadoras">
-              <div class="item-img">
-                <img src="assets/ram.webp" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Memorias RAM</p>
-                <div>
-                  <span class="description">Las memorias RAM son esenciales para la velocidad de tu PC. Descubre nuestras opciones de alta capacidad y rendimiento.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all computadoras">
-              <div class="item-img">
-                <img src="assets/tarjeta.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Tarjetas de Video</p>
-                <div>
-                  <span class="description">Las tarjetas de video son esenciales para los gamers y diseñadores. Encuentra las mejores opciones para gráficos de alta calidad.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all computadoras">
-              <div class="item-img">
-                <img src="assets/case.webp" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Case para PC's</p>
-                <div>
-                  <span class="description">Los cases son esenciales para proteger y personalizar tu PC. Descubre nuestras opciones de alta calidad y diseño.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all oficina">
-              <div class="item-img">
-                <img src="assets/impresora.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Impresoras</p>
-                <div>
-                  <span class="description">Las impresoras son esenciales para la oficina y el hogar. Encuentra las mejores opciones para imprimir documentos y fotos de alta calidad.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all oficina">
-              <div class="item-img">
-                <img src="assets/teclado.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Teclados</p>
-                <div>
-                  <span class="description">Los teclados son esenciales para la productividad. Descubre nuestras opciones ergonómicas y de alta calidad para tu oficina.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all monitor">
-              <div class="item-img">
-                <img src="assets/monitor.avif" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Monitor Curvo</p>
-                <div>
-                  <span class="description">Los monitores curvos son ideales para una experiencia inmersiva. Descubre nuestras opciones de alta calidad y resolución para tu oficina o gaming.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all monitor">
-              <div class="item-img">
-                <img src="assets/monitor3.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Monitor Gamer</p>
-                <div>
-                  <span class="description">Los monitores gamers son esenciales para una experiencia de juego fluida y de alta calidad. Encuentra las mejores opciones para tus necesidades.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-item all monitor">
-              <div class="item-img">
-                <img src="assets/monitor2.jpg" alt="Item image">
-              </div>
-              <div class="item-info">
-                <p>Monitor Oficina</p>
-                <div>
-                  <span class="description">Los monitores de oficina son esenciales para la productividad. Descubre nuestras opciones de alta calidad y resolución para tu espacio de trabajo.</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+<!-- Productos -->
+<section id="productos" class="wrapper">
+  <div class="category-filter">
+    <div class="container">
+      <h2 class="section__header">Productos</h2>
+      <div class="filter-btns">
+        <button type="button" class="filter-btn" id="all">Todos</button>
+        <button type="button" class="filter-btn" id="computadoras">Computadoras</button>
+        <button type="button" class="filter-btn" id="oficina">Oficina</button>
+        <button type="button" class="filter-btn" id="monitor">Monitor</button>
       </div>
-    </section>
-    
 
-    <!-- Nosotros -->
-    <section id="nosotros" class="Nosotros">
-      <div class="section__container music__container">
-        <div class="music__image">
-          <span>02</span>
-          <img src="assets/figura1.png" alt="Nosotros" />
-        </div>
-        <div class="music__content">
-          <h2 class="section__header">¿Quiénes somos?</h2>
-          <p>
-            En ECOMSERV, somos una empresa apasionada por la tecnología, especializada en la venta de componentes y el mantenimiento y reparación de computadoras y laptops.
-            Nos motiva brindar soporte técnico confiable y adaptado a las necesidades de cada cliente. Creemos en la importancia de la tecnología como herramienta para mejorar la vida y productividad de las personas, por lo que trabajamos con dedicación para asegurar que tus equipos estén siempre en óptimas condiciones.
-            ¡En ECOMSERV, tu satisfacción es nuestra prioridad!
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Contacto -->
-
-
-    <div id= "" class="section__container client__container">
-      <h3 class="section__subheader">Testimonials</h3>
-      <h2 class="section__header">What our listeners saying</h2>
-      <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <div class="client__card">
-              <span><i class="ri-double-quotes-r"></i></span>
-              <h4>Sarah Johnson</h4>
-              <h5>Music Teacher</h5>
-              <p>
-                As a music teacher, I'm always on the lookout for high-quality
-                audio equipment to enhance my students' learning experience. I'm
-                thrilled with the clarity and richness of sound from these
-                speakers.
-              </p>
-            </div>
+      <div class="filter-items">
+        <div class="filter-item all computadoras">
+          <div class="item-img">
+            <img src="assets/placamadre.jpg" alt="Item image">
           </div>
-          <div class="swiper-slide">
-            <div class="client__card">
-              <span><i class="ri-double-quotes-r"></i></span>
-              <h4>David Rodriguez</h4>
-              <h5>DJ & Producer</h5>
-              <p>
-                These speakers are a game-changer for my DJ sets and studio
-                sessions. The sound quality is exceptional, allowing me to hear
-                every detail of my mixes with precision. I can't imagine
-                performing without them.
-              </p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="client__card">
-              <span><i class="ri-double-quotes-r"></i></span>
-              <h4>Emily Chen</h4>
-              <h5>Interior Designer</h5>
-              <p>
-                I incorporated these speakers into a recent home renovation
-                project, and they exceeded my expectations. Not only do they
-                deliver superb sound quality, but their sleek design also
-                complements any interior style perfectly.
-              </p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="client__card">
-              <span><i class="ri-double-quotes-r"></i></span>
-              <h4>Jennifer Thompson</h4>
-              <h5>Event Planner</h5>
-              <p>
-                I rely on top-notch audio equipment to create unforgettable
-                experiences for my clients' events. These speakers deliver
-                exceptional sound quality and reliability, ensuring that every
-                event is a resounding success.
-              </p>
+          <div class="item-info">
+            <p>Placas Madres</p>
+            <div>
+              <span class="description">Las placas madres son esenciales para la comunicación entre componentes de tu PC. Ofrecemos una variedad de alta calidad para todas tus necesidades.</span>
             </div>
           </div>
         </div>
+
+        <div class="filter-item all computadoras">
+          <div class="item-img">
+            <img src="assets/procesador.webp" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Procesadores</p>
+            <div>
+              <span class="description">Los procesadores son el cerebro de tu computadora. Encuentra los mejores modelos para potenciar tu rendimiento.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all computadoras">
+          <div class="item-img">
+            <img src="assets/ram.webp" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Memorias RAM</p>
+            <div>
+              <span class="description">Las memorias RAM son esenciales para la velocidad de tu PC. Descubre nuestras opciones de alta capacidad y rendimiento.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all computadoras">
+          <div class="item-img">
+            <img src="assets/tarjeta.jpg" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Tarjetas de Video</p>
+            <div>
+              <span class="description">Las tarjetas de video son esenciales para los gamers y diseñadores. Encuentra las mejores opciones para gráficos de alta calidad.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all computadoras">
+          <div class="item-img">
+            <img src="assets/case.webp" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Case para PC's</p>
+            <div>
+              <span class="description">Los cases son esenciales para proteger y personalizar tu PC. Descubre nuestras opciones de alta calidad y diseño.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all oficina">
+          <div class="item-img">
+            <img src="assets/impresora.jpg" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Impresoras</p>
+            <div>
+              <span class="description">Las impresoras son esenciales para la oficina y el hogar. Encuentra las mejores opciones para imprimir documentos y fotos de alta calidad.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all oficina">
+          <div class="item-img">
+            <img src="assets/teclado.jpg" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Teclados</p>
+            <div>
+              <span class="description">Los teclados son esenciales para la productividad. Descubre nuestras opciones ergonómicas y de alta calidad para tu oficina.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all monitor">
+          <div class="item-img">
+            <img src="assets/monitor.avif" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Monitor Curvo</p>
+            <div>
+              <span class="description">Los monitores curvos son ideales para una experiencia inmersiva. Descubre nuestras opciones de alta calidad y resolución para tu oficina o gaming.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all monitor">
+          <div class="item-img">
+            <img src="assets/monitor3.jpg" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Monitor Gamer</p>
+            <div>
+              <span class="description">Los monitores gamers son esenciales para una experiencia de juego fluida y de alta calidad. Encuentra las mejores opciones para tus necesidades.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-item all monitor">
+          <div class="item-img">
+            <img src="assets/monitor2.jpg" alt="Item image">
+          </div>
+          <div class="item-info">
+            <p>Monitor Oficina</p>
+            <div>
+              <span class="description">Los monitores de oficina son esenciales para la productividad. Descubre nuestras opciones de alta calidad y resolución para tu espacio de trabajo.</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+  </div>
+</section>
 
-    <section class="discount">
-      <div class="section__container discount__container">
-        <img
-          src="assets/discount-bg.png"
-          alt="discount-bg"
-          class="discount-bg"
-        />
-        <div class="discount__content">
-          <h2 class="section__header">Music is an outburst of the soul</h2>
-          <p>
-            Delve into the depths of human experience as melodies intertwine
-            with the essence of our being, conveying emotions too profound for
-            words alone. From the gentle whispers of a piano to the thunderous
-            roar of a symphony, our products encapsulate the raw power and
-            beauty of musical expression.
-          </p>
-          <div class="discount__btn">
-            <button class="btn">Go to shop</button>
-          </div>
-        </div>
-        <div class="discount__image">
-          <img src="assets/discount.jpg" alt="discount" />
-        </div>
+  <!-- Nosotros -->
+  <section id="nosotros" class="Nosotros">
+    <div class="section__container music__container">
+      <div class="music__image">
+        <span>02</span>
+        <img src="assets/figura1.png" alt="Nosotros" />
       </div>
-    </section>
+      <div class="music__content">
+        <h2 class="section__header">¿Quiénes somos?</h2>
+        <p>
+          En <strong>ECOMSERV</strong>, vivimos y respiramos tecnología. Somos expertos en la venta de <em>componentes</em>, mantenimiento y reparación de computadoras y laptops, siempre con un compromiso firme de calidad y confianza. 
+          <br><br>
+          Creemos en el poder de la tecnología para transformar vidas y maximizar la productividad. Con pasión y dedicación, nos aseguramos de que tus equipos rindan al máximo, dándote tranquilidad en cada proyecto.
+          <br><br>
+          🌟 <strong>ECOMSERV:</strong> porque tu satisfacción no es solo nuestro objetivo, ¡es nuestra misión!
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="footer__bar">
-        Copyright © 2024 Web Design Mastery. All rights reserved.
-      </div>
-    </footer>
+   <!-- Footer Section -->
+<footer class="main-footer">
+  <div class="footer-content">
+    <!-- Company Info Section -->
+    <div class="footer-section">
+      <h2>ECOMSERV</h2>
+      <p>En ECOMSERV nuestra misión es brindar soluciones tecnológicas confiables. Ayudamos a nuestros clientes a mantener sus equipos en óptimo funcionamiento para que puedan enfocarse en hacer crecer sus negocios. Nuestros servicios garantizan la mejor experiencia en soporte técnico y productos de calidad.</p>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="footer-section">
+      <h2>Enlaces Rápidos</h2>
+      <ul class="quick-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Logo Section -->
+    <div class="footer-section">
+      <img src="assets/ECOMSER-LOGO.png" alt="ECOMSERV Logo" class="footer-logo">
+      <p class="tagline">Servicio Técnico - Venta de Computadoras, Impresoras, Suministros y Partes</p>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <div class="footer-bottom">
+    <div class="social-links">
+      <a href="#" class="social-link"><i class="ri-facebook-fill"></i></a>
+      <a href="mailto:epacomser@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>    </div>
+    <p>© 2024 ECOMSERV. Todos los derechos reservados.</p>
+  </div>
+
+  <!-- Scroll to top button -->
+  <a href="#" class="scroll-top" id="scroll-top">
+    <i class="ri-arrow-up-s-line"></i>
+  </a>
+</footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
